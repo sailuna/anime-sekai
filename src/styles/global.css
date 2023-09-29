@@ -1,0 +1,42 @@
+/* Center align navigation items */
+.tns-nav {
+    text-align: center !important;
+}
+
+/* Apply a linear gradient background to the HTML and body */
+html, body {
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    font-family: "Open Sans", "Open Sans", serif;
+}
+
+/* Add styling to cards */
+.card {
+    border-radius: 3px !important;
+    box-shadow: 0 0 7px rgb(4 4 4) !important;
+}
+
+/* Apply shadow and border radius to elements with class 'shadowedNBorder' */
+.shadowedNBorder {
+    border-radius: 3px; /* Adjust the border-radius value for rounded corners */
+    box-shadow: 0 0 20px rgb(4 4 4); /* Add a white shadow */
+}
+
+/* Apply padding to the slider */
+.tns-slider {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* Add top and bottom borders to elements with class 'border-nav' */
+.border-nav {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+/* Style the header image */
+.headerImage {
+    object-fit: cover;
+    height: 70px;
+    /* Uncomment the following line to set a fixed width for the header image */
+    /* width: 400px; */
+}
